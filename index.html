@@ -5,7 +5,7 @@
 <title>全屏滑稽-www.dyboy.cn</title>
 
 <style type="text/css">
-body { margin: 0; padding: 0; position: relative; background-image: url(skin/images/xh.jpg); background-position: center; /*background-repeat: no-repeat;*/ width: 100%; height: 100%; background-size: 100% 100%; }
+body { margin: 0; padding: 0; position: relative; background-image: url(xh.jpg); background-position: center; /*background-repeat: no-repeat;*/ width: 100%; height: 100%; background-size: 100% 100%; }
 
 #jk {
     width: 30%;
@@ -20,8 +20,8 @@ body { margin: 0; padding: 0; position: relative; background-image: url(skin/ima
 </head>
 <body id="body" onLoad="init()">
     
-<script type="text/javascript" src="skin/js/threecanvas.js"></script>
-<script type="text/javascript" src="skin/js/snow.js"></script>
+<script type="text/javascript" src="/threecanvas.js"></script>
+<script type="text/javascript" src="/snow.js"></script>
 
 <script type="text/javascript">
 	var SCREEN_WIDTH = window.innerWidth;//
@@ -38,8 +38,8 @@ body { margin: 0; padding: 0; position: relative; background-image: url(skin/ima
 	var particles = []; 
 
 	var particleImage = new Image();
-	//THREE.ImageUtils.loadTexture( "img/ParticleSmoke.png" );
-	particleImage.src = 'skin/images/ParticleSmoke.png'; 
+	//THREE.ImageUtils.loadTexture( "/ParticleSmoke.png" );
+	particleImage.src = '/ParticleSmoke.png'; 
 	
 
 	function init() {
